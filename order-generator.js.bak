@@ -83,11 +83,17 @@ const Menu = {
 		items: ["Oatmeal", "Bacon", "Milkshake"],
 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
 	},
-		"Harry's Hairy Balls": {
+		"Harrys Hairy Balls": {
 		price: 69,
 		emoji: '😈',
-		items: ["Oatmeal", "Bacon", "Milkshake"],
-		copypasta:  '~g~~h~ 🌄 Harrys Hairy Balls 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
+		items: ["Rimjob", "Rimjob", "Milkshake"],
+		copypasta:  '~g~~h~ 🌄 Harrys Hairy Balls Combo 🌄~n~~b~2 Rimjobs, 1 Iced Tea ~w~|~g~ $69 ~r~LIMITED',
+	},
+			"Tonys Tighty Whities": {
+		price: 3,
+		emoji: '🩳',
+		items: ["Tighty Whities", "Rimjob"],
+		copypasta:  '~g~~h~ 🌄 Tonys Tighty Whities Combo 🌄~n~~b~1 TightyWhities, 1 Rimjob ~w~|~g~ $3 ~r~LIMITED',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
@@ -228,7 +234,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", 
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream", "Tighty Whities"
 ];
 
 const buttons = {
