@@ -87,6 +87,7 @@ const Menu = {
 		price: 69,
 		emoji: '😈',
 		items: ["Rimjob", "Rimjob", "Iced Tea"],
+		copypasta:  '~g~~h~ 🌄 Harry's Hairy Balls Combo 🌄~n~~b~2 Rimjob, 1 Iced Team ~w~|~g~ $69 ~r~LIMITED',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
