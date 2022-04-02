@@ -83,11 +83,11 @@ const Menu = {
 		items: ["Oatmeal", "Bacon", "Milkshake"],
 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
 	},
-		"Harry's Hairy Balls": {
+		"Harrys Hairy Balls": {
 		price: 69,
 		emoji: '😈',
-		items: ["Rimjob", "Rimjob", "Iced Tea"],
-		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
+		items: ["Rimjob", "Rimjob", "Milkshake"],
+		copypasta:  '~g~~h~ 🌄 Harrys Hairy Balls Combo 🌄~n~~b~2 Rimjobs, 1 Iced Tea ~w~|~g~ $69 ~r~LIMITED',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
