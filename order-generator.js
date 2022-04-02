@@ -83,7 +83,7 @@ const Menu = {
 		items: ["Oatmeal", "Bacon", "Milkshake"],
 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
 	},
-		"Harry's Hairy Balls": {
+		"Harry's Hairy Ball": {
 		price: 69,
 		emoji: '😈',
 		items: ["Rimjob", "Rimjob", "Iced Tea"],
