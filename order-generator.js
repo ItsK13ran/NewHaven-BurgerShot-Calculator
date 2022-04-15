@@ -285,16 +285,16 @@ const Signs = {
 const discounts = {
 	
 	"half_off": {
-		percent: .50,
-		desc: '50% Discount (PD, EMS, BS Employees...)',
+		percent: .20,
+		desc: '20% Discount (PD, EMS)',
 	},
 	"five_percent": {
-		percent: .05,
-		desc: '5% Discount (<font color="red">LIMITED TIME</font>)',
+		percent: .10,
+		desc: '10% Discount (<font color="red">EVENTS ONLY</font>)',
 	},
-	"blackout": {
-		percent: .15,
-		desc: 'Blackout Sale (15% off)',
+	"Emoloyee": {
+		percent: 1.0,
+		desc: 'Employee Discount (FREE)',
 	},
 };
 
