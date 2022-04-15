@@ -59,12 +59,6 @@ const Menu = {
 		items: ["Fries", "Fries", "Soda", "Soda"],
 		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
 	},
-	"Stretchy De-stress": {
-		price: 200,
-		emoji: '🧀',
-		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
-		copypasta:  '~y~ ~h~ 🧀Stretchy De-stress🧠 ~n~~b~ 4 Mozzarella Sticks ~w~|~g~ $200 ~r~LIMITED',
-	},
 	"Sweet Tooth": {
 		price: 162,
 		emoji: '🦷',
@@ -76,12 +70,6 @@ const Menu = {
 		emoji: '🍬',
 		items: ["Soda", "Cream Pie", "Rimjob"],
 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
-	},
-	"Morning Glory": {
-		price: 150,
-		emoji: '☀️',
-		items: ["Oatmeal", "Bacon", "Milkshake"],
-		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
@@ -111,25 +99,9 @@ const Menu = {
 		price: 500,
 		items: ["Money Shot"],
 	},
-	"KnuckleSandwich": {
-		price: 150,
-		items: ["KnuckleSandwich"],
-	},
-	"Chicken Wraps": {
-		price: 150,
-		items: ["Chicken Wraps"],
-	},
-	"Buttermilk Chicken": {
-		price: 150,
-		items: ["Buttermilk Chicken"],
-	},
 	"Bleeder": {
 		price: 100,
 		items: ["Bleeder"],
-	},
-	"Oatmeal": {
-		price: 50,
-		items: ["Oatmeal"],
 	},
 	"Drinks:": {
 		header: true,
@@ -142,29 +114,6 @@ const Menu = {
 		price: 48,
 		items: ["Milkshake"],
 	},
-	"Copium": {
-		price: 100,
-		items: ["Copium"],
-	},
-	"Orange Juice": {
-	   	price: 45,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	   	items: ["Orange Juice"],
-   	},
-   	"Lemonade": {
-	  	price: 45,
-	 	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Orange Juice"],
-  	},
-	"Iced Tea": {
-	  	price: 45,
-	 	max: 5,
-	  	items: ["Iced Tea"],
-  	},
 	"Sides:": {
 		header: true,
 
@@ -178,31 +127,6 @@ const Menu = {
 	  	noDiscount: false,
 	  	lastItem: false,
 	  	items: ["Lucky Rings"],
-	},
-  	"Mozz Sticks": {
-	  	price: 55,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Mozz sticks"],
- 	
-	},
-	"Bacon": {
-		price: 50,
-		items: ["Bacon"],
-	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
-	"Salad": {
-	   	price: 55,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	  	items: ["Salad"],
 	},
 	"Desserts(toys are no longer being sold indivdually):": {
 		header: true,
