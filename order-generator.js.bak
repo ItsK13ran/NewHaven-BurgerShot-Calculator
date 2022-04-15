@@ -293,7 +293,7 @@ const discounts = {
 		desc: '10% Discount (<font color="red">EVENTS ONLY</font>)',
 	},
 	"Emoloyee": {
-		percent: .100,
+		percent: 1.0,
 		desc: 'Employee Discount (FREE)',
 	},
 };
