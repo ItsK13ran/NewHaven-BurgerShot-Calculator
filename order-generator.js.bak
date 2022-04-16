@@ -25,21 +25,21 @@ const Menu = {
 		price: 250,
 		emoji: '🍔',
 		noDiscount: true,
-		items: ["Murder Meal", "Heartstopper", "Fries", "Soda"],
-		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
+		items: ["Murder Meal", "Heartstopper", "Fries", "Coke"],
+		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Coke ~w~|~g~ $250',
 	},
 	"Jackpot Meal": {
 		fileRenameException: true,
 		price: 700,
 		emoji: '💰',
-		items: ["Money Shot", "Lucky Rings", "Copium"],
-		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
+		items: ["Money Shot", "Rings", "Copium"],
+		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Rings, 1 Copium ~w~|~g~ $700',
 	},
 	"Running Man": {
 		price: 250,
 		emoji: '🏃',
-		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
-		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $250',
+		items: ["Fries", "Fries", "Rimjob", "Rimjob", "coke"],
+		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 coke ~w~|~g~ $250',
 	},
 	"MilkShake and Fries": {
 		price: 200,
@@ -50,13 +50,13 @@ const Menu = {
 	"Lucky Fisherman": {
 		price: 200,
 		emoji: '⛵',
-		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200',
+		items: ["Rings", "Rings", "coke", "coke"],
+		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Rings & 2 Drinks ~w~|~g~ $200',
 	},
 	"Salty Seaman": {
 		price: 200,
 		emoji: '🧂',
-		items: ["Fries", "Fries", "Soda", "Soda"],
+		items: ["Fries", "Fries", "coke", "coke"],
 		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
 	},
 	"Sweet Tooth": {
@@ -68,8 +68,8 @@ const Menu = {
 	"Sugar Rush": {
 		price: 123,
 		emoji: '🍬',
-		items: ["Soda", "Cream Pie", "Rimjob"],
-		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
+		items: ["coke", "Cream Pie", "Rimjob"],
+		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 coke, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
@@ -77,15 +77,15 @@ const Menu = {
 	},
 	"Heartstopper Meal": {
 		price: 175,
-		items: ["Heartstopper", "Fries", "Soda"],
+		items: ["Heartstopper", "Fries", "coke"],
 	},
 	"Money Shot Meal": {
 		price: 575,
-		items: ["Money Shot", "Fries", "Soda"],
+		items: ["Money Shot", "Fries", "coke"],
 	},
 	"Bleeder Meal": {
 		price: 200,
-		items: ["Bleeder", "Fries", "Soda"],
+		items: ["Bleeder", "Fries", "coke"],
 	},
 	// Individual Items:
 	"Burgers and Mains:": {
@@ -99,6 +99,22 @@ const Menu = {
 		price: 500,
 		items: ["Money Shot"],
 	},
+	"Torpedo": {
+		price: 500,
+		items: ["Torpedo"],
+	},	
+	"Meat Free": {
+		price: 500,
+		items: ["Meat Free"],
+	},		
+	"GoatCheeseWrap": {
+		price: 500,
+		items: ["GoatCheeseWrap"],
+	},		
+	"Cheese Wrap": {
+		price: 500,
+		items: ["Cheese Wrap"],
+	},		
 	"Bleeder": {
 		price: 100,
 		items: ["Bleeder"],
@@ -106,13 +122,21 @@ const Menu = {
 	"Drinks:": {
 		header: true,
 	},
-	"Soda": {
+	"Coke": {
 		price: 45,
-		items: ["Soda"]
+		items: ["Coke"]
+	},
+	"Water": {
+		price: 45,
+		items: ["Water"]
 	},
 	"Milkshake": {
 		price: 48,
 		items: ["Milkshake"],
+	},
+	"Coffee": {
+		price: 45,
+		items: ["Coffee"]	
 	},
 	"Sides:": {
 		header: true,
@@ -122,31 +146,17 @@ const Menu = {
 		price: 55,
 		items: ["Fries"],
 	},
-  	"Lucky Rings": {
+	"Nuggets": {
+		price: 500,
+		items: ["Nuggets"],
+	},		
+  	"Rings": {
 	  	price: 100,
 	  	noDiscount: false,
 	  	lastItem: false,
-	  	items: ["Lucky Rings"],
+	  	items: ["Rings"],
 	},
-	"Bacon": {
-		price: 50,
-		items: ["Bacon"],
-	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
-	"Salad": {
-	   	price: 55,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	  	items: ["Salad"],
-	},
-	"Desserts(toys are no longer being sold indivdually):": {
+	"Desserts": {
 		header: true,
   	},
 	"Rimjob": {
@@ -164,7 +174,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", 
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream"
+	"Fries", "Coke", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Rings", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream" , "Coffee" , "GoatCheeseWrap" , "Cheese Wrap" , "Nuggets"
 ];
 
 const buttons = {
